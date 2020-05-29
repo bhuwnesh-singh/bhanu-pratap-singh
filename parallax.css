@@ -15,7 +15,7 @@ and open the template in the editor.
   background-image: url(images/virus.png");
   margin-top: 50px;
   /* Set a specific height */
-  min-height: 560px; 
+  min-height: 700px; 
   min-width: 100%;
   position: relative;
   /* Create the parallax scrolling effect */
@@ -30,7 +30,7 @@ and open the template in the editor.
   background-image: url(images/mask.png");
 
   /* Set a specific height */
-  min-height: 560px; 
+  min-height: 700px; 
   min-width: 100%;
   position: relative;
   /* Create the parallax scrolling effect */
@@ -119,10 +119,10 @@ p
 .overlay
 {
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    top: 10%;
+    bottom: 10%;
+    left: 10%;
+    right: 10%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -137,10 +137,10 @@ p
 .overlay-right
 {
     position: absolute;
-    top: 10%;
-    bottom: 10%;
-    right: 10%;
-    left: 60%;
+    top: 5%;
+    bottom: 5%;
+    right: 5%;
+    left: 55%;
     display: flex;
     padding: 2%;
     align-items: center;
